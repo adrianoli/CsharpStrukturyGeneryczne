@@ -6,7 +6,7 @@ namespace _1_TyptyGeneryczne
     {
         static void Main(string[] args)
         {
-            var kolejka = new KolejkaKolowa(pojemnosc: 3);
+            var kolejka = new KolejkaKolowa<double>(pojemnosc: 3);
 
             while(true)
             {
